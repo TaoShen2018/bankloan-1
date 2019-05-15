@@ -13,7 +13,7 @@
    * 引入参照组件和样式
    ```js
    import {RefMultipleTableWithInput,RefTreeTableWithInput} from 'pap-refer';
-   import 'pap-refer/dist/index.css
+   import 'pap-refer/dist/index.css';
    ```
    * 单表参照示例代码
    ```js
@@ -187,7 +187,6 @@ banklaon_react/src/components/Bpm/BpmTaskApprovalWrap.js
 ```
 * 在 `banklaon_react/src/pages/xml_sale_order/components/SaleOrder-edit/edit.js`中引入项目级 BPM
 ```bash
-import {BpmTaskApprovalWrap} from 'yyuap-bpm'; // 只引入 BpmTaskApprovalWrap，去掉之前引入的  BpmButtonSubmit
 import BpmButtonSubmit from "components/Bpm/BpmButtonSubmit";  //项目级 BPM
 import BpmTaskApprovalWrap from "components/Bpm/BpmTaskApprovalWrap";
 
